@@ -1,7 +1,7 @@
 {
   "name": "fivethree",
   "short_name": "fivethree",
-  "theme_color": "#1976d2",
+  "theme_color": "#0b2f44",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
