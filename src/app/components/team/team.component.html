@@ -1,0 +1,22 @@
+<div id="team" padding>
+    <ion-card>
+        <h2 text-center translate>team.title</h2>
+        <ion-grid fixed>
+            <ion-row>
+                <ion-col *ngFor="let member of team" col-12 col-md-4 col-lg-4>
+                    <img [src]="member.picture" [alt]="member.name">
+                    <h2 text-center ion-text>{{member.name}}</h2>
+                    <p text-center ion-text>{{member.description}}</p>
+                    <div text-center>
+                        <a [href]="member.twitter" target="blank">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a [href]="member.github" target="blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-card>
+</div>

@@ -1,0 +1,30 @@
+#team {
+    background: var(--ion-color-dark);
+}
+
+h2 {
+    color: var(--ion-color-dark-contrast);
+}
+
+p {
+    color: var(--ion-color-light);
+}
+
+a {
+    font-size: 2em;
+    color: var(--ion-color-light);
+}
+
+ion-card {
+    background: var(--ion-color-medium);
+} 
+
+ion-col {
+    text-align: center;
+    img {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+}
