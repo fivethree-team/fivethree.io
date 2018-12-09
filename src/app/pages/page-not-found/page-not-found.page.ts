@@ -7,9 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageNotFoundPage implements OnInit {
 
-  constructor() { }
+  lottieConfig: Object;
+  animation: any;
+
+  constructor() {
+    this.lottieConfig = {
+      path: 'assets/lottie/empty_box.json',
+      renderer: 'canvas',
+      autoplay: false,
+      loop: false
+    };
+  }
 
   ngOnInit() {
+  }
+
+  handleAnimation(animation) {
+    this.animation = animation;
+    this.animation.setSpeed(0.8);
+    this.animation.play();
   }
 
 }

@@ -1,7 +1,13 @@
 <ion-content>
   <app-header></app-header>
-
-  <h1 text-center>Sorry! Couldn't find your page. </h1>
-
+  <div id="page-not-found-container">
+    <div [fivCenter]>
+        <lottie-animation-view [options]="lottieConfig"
+        [width]="200" [height]="200" (animCreated)="handleAnimation($event)">
+      </lottie-animation-view>
+      <h3 text-center translate>404.text</h3>
+      <!-- <a text-center href="/">Go back to homepage</a> -->
+    </div>
+  </div>
   <app-footer></app-footer>
 </ion-content>

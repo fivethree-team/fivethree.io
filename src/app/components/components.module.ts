@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { TeamComponent } from './team/team.component';
+import { FivethreeCoreModule } from '@fivethree/core';
 
 @NgModule({
     declarations: [
@@ -17,12 +18,15 @@ import { TeamComponent } from './team/team.component';
     imports: [
         CommonModule,
         IonicModule,
-        TranslateModule.forChild()],
+        TranslateModule.forChild(),
+        FivethreeCoreModule
+    ],
     exports: [
         HeaderComponent,
         FooterComponent,
         AboutComponent,
-        TeamComponent
+        TeamComponent,
+        FivethreeCoreModule
     ],
     providers: [],
 })

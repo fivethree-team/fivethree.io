@@ -7,6 +7,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { PageNotFoundPage } from './page-not-found.page';
+import { TranslateModule } from '@ngx-translate/core';
+import { LottieAnimationViewModule } from 'ng-lottie';
 
 const routes: Routes = [
   {
@@ -21,7 +23,9 @@ const routes: Routes = [
     FormsModule,
     IonicModule,
     RouterModule.forChild(routes),
-    ComponentsModule
+    ComponentsModule,
+    TranslateModule.forChild(),
+    LottieAnimationViewModule
   ],
   declarations: [PageNotFoundPage]
 })
