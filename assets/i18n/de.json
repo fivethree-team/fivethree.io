@@ -7,5 +7,8 @@
         "about": "Über",
         "team": "Team",
         "imprint": "Impressum"
+    },
+    "404": {
+        "text": "Oops, wir konnten die Seite die du suchst nicht finden."
     }
 }
