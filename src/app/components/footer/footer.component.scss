@@ -1,5 +1,6 @@
 ion-footer {
     background: var(--ion-color-dark);
+    padding: 64px 0 64px 0;
 }
 
 h4 {
@@ -20,4 +21,30 @@ a:hover {
 
 a {
     text-decoration: none;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: var(--ion-color-light);
+        font-size: 2rem;
+        padding: 0 12px 0 12px;
+    }
+
+    a:first-child {
+        padding-left: 0;
+    }
+
+    a:last-child {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #social {
+        order: -1;
+    }
 }
