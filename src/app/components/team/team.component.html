@@ -7,12 +7,12 @@
                     <img [src]="member.picture" [alt]="member.name">
                     <h2 text-center ion-text>{{member.name}}</h2>
                     <p text-center ion-text>{{member.description}}</p>
-                    <div text-center>
-                        <a [href]="member.twitter" target="blank">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
+                    <div text-center class="links">
                         <a [href]="member.github" target="blank">
                             <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a [href]="member.twitter" target="blank">
+                            <ion-icon name="logo-twitter"></ion-icon>
                         </a>
                     </div>
                 </ion-col>
