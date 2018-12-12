@@ -6,7 +6,9 @@
         "company": "Firma",
         "about": "Über",
         "team": "Team",
-        "imprint": "Impressum"
+        "imprint": "Impressum",
+        "resources": "Ressourcen",
+        "fivethree-components": "Fivethree Components"
     },
     "404": {
         "text": "Oops, wir konnten die Seite die du suchst nicht finden."
