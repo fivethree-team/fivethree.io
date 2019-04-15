@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LottieAnimation } from '@fivethree/lottie';
 
 @Component({
   selector: 'app-page-not-found',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class PageNotFoundPage implements OnInit {
 
   lottieConfig: Object;
-  animation: any;
+  animation: LottieAnimation;
 
   constructor() {
     this.lottieConfig = {
@@ -22,7 +23,7 @@ export class PageNotFoundPage implements OnInit {
   ngOnInit() {
   }
 
-  handleAnimation(animation) {
+  handleAnimation(animation: LottieAnimation) {
     this.animation = animation;
     this.animation.setSpeed(0.8);
     this.animation.play();
