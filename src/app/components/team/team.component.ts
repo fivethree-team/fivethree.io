@@ -25,7 +25,7 @@ export class TeamComponent implements OnInit {
     },
     {
         name: 'Frank Thielen',
-        picture: 'https://pbs.twimg.com/profile_images/1065150372375928833/kii4AzD7_400x400.jpg',
+        picture: 'https://frankthielen.de/assets/img/profile_quadrat.png',
         description: 'Software Architect & Backend Developer',
         twitter: 'https://twitter.com/frank_thi',
         github: 'https://github.com/frathi'
