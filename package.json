@@ -25,7 +25,7 @@
     "@angular/pwa": "0.13.8",
     "@angular/router": "7.2.13",
     "@angular/service-worker": "7.2.13",
-    "@fivethree/core": "0.8.4",
+    "@fivethree/core": "0.8.10",
     "@fivethree/lottie": "0.1.0",
     "@ionic-native/core": "5.5.0",
     "@ionic-native/splash-screen": "5.5.0",
