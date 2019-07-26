@@ -1,44 +1,44 @@
 #team {
-    background: var(--ion-color-dark);
+  background: var(--ion-color-dark);
 }
 
 h2 {
-    color: var(--ion-color-dark-contrast);
+  color: var(--ion-color-dark-contrast);
 }
 
 p {
-    color: var(--ion-color-light);
+  color: var(--ion-color-light);
 }
 
 a {
-    font-size: 2em;
-    color: var(--ion-color-light);
+  font-size: 2em;
+  color: var(--ion-color-light);
 }
 
 ion-card {
-    background: var(--ion-color-medium);
-} 
+  background: var(--ion-color-medium);
+}
 
 ion-col {
-    text-align: center;
-    img {
-        display: inline-block;
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-    }
+  text-align: center;
+  img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
 }
 
 .links {
-    a {
-        padding: 0 8px 0 8px;
-    }
+  a {
+    padding: 0 8px 0 8px;
+  }
 
-    a:first-child {
-        padding-left: 0px;
-    }
+  a:first-child {
+    padding-left: 0px;
+  }
 
-    a:last-child {
-        padding-right: 0px;
-    }
+  a:last-child {
+    padding-right: 0px;
+  }
 }

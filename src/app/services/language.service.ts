@@ -6,8 +6,7 @@ import { config } from '@configs/config';
   providedIn: 'root'
 })
 export class LanguageService {
-
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService) {}
 
   initializeLanguage(): any {
     this.translate.addLangs(config.language.support);
@@ -19,8 +18,11 @@ export class LanguageService {
   useBrowserLanguage() {
     const browserLang = this.translate.getBrowserLang();
 
-    this.useLanguage(browserLang.match(config.language.support.join('|')) ?
-      browserLang : config.language.default);
+    this.useLanguage(
+      browserLang.match(config.language.support.join('|'))
+        ? browserLang
+        : config.language.default
+    );
   }
 
   useLanguage(lang: string) {

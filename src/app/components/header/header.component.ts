@@ -7,14 +7,11 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  constructor(private navController: NavController) {}
 
-  constructor(private navController: NavController) { }
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   onTitleClicked() {
     this.navController.navigateRoot('/');
   }
-
 }
