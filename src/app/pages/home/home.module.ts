@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
 import { ComponentsModule } from '@components/components.module';
+import { HeroModule } from '@components/hero/hero.module';
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { ComponentsModule } from '@components/components.module';
         component: HomePage
       }
     ]),
-    ComponentsModule
+    ComponentsModule,
+    HeroModule
   ],
   declarations: [HomePage]
 })

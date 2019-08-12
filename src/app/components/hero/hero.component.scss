@@ -1,0 +1,19 @@
+#hero {
+  height: 50vh;
+  background: var(--ion-color-dark);
+
+  .fivethree-title {
+    display: block;
+    font-weight: 500;
+    font-size: 6rem;
+    letter-spacing: 3px;
+    padding: 3rem 0 2rem;
+    margin-top: 2rem;
+  }
+
+  .fivethree-subtitle {
+    padding-bottom: 5rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+  }
+}
