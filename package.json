@@ -35,7 +35,7 @@
     "@ngx-translate/http-loader": "4.0.0",
     "core-js": "2.6.5",
     "hammerjs": "2.0.8",
-    "lottie-web": "5.5.7",
+    "lottie-web": "5.7.0",
     "rxjs": "6.5.2",
     "zone.js": "0.9.1"
   },
